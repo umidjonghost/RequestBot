@@ -13,7 +13,9 @@ async def send_welcome(message: Message):
     await message.answer("Assalomu alaykum!")
 
 async def main():
+    print('working')
     await dp.start_polling(bot)
+
 
 if __name__ == "__main__":
     asyncio.run(main())
